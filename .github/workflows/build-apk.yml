@@ -25,8 +25,8 @@ jobs:
           gradle-version: "8.9"
 
       - name: Build Debug APK
-  run: gradle assembleDebug --no-daemon
-  working-directory: MathsQuizApp_PhoneBuild
+        run: gradle assembleDebug --no-daemon
+        working-directory: MathsQuizApp_PhoneBuild
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
