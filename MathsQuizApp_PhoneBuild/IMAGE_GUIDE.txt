@@ -1,0 +1,9 @@
+IMAGE SUPPORT
+The quiz already supports an imageName field in QuizQuestion.
+Example:
+QuizQuestion("Look at the diagram...", QuizQuestion.Type.MCQ,
+    listOf("10","20","30","40"), "20", "diagram01")
+
+Put the image in app/src/main/res/drawable/ as diagram01.png.
+To actually display it, add an Image(painterResource(...)) block in QuizScreen.
+The current starter version keeps the question data ready for images.

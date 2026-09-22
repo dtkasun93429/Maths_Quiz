@@ -1,0 +1,13 @@
+PHONE-ONLY APK BUILD
+
+1. Upload this project to a GitHub repository.
+2. Open the repository on GitHub.
+3. Tap the Actions tab.
+4. Select "Build Android APK".
+5. Tap "Run workflow".
+6. Wait for the green check mark.
+7. Open the completed workflow run.
+8. Under Artifacts, download "MathsQuiz-debug-apk".
+9. Extract the downloaded ZIP and install app-debug.apk.
+
+The workflow builds the debug APK on GitHub's server, so no PC or Android Studio is needed on your phone.
